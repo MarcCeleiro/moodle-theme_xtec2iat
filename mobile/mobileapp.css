@@ -1,0 +1,62 @@
+.bar-header {
+  background-color: #682911;
+}
+
+ion-side-menu li .item {
+  background-color: #313848;
+  border-color: #4F5865;
+  color: #BCC3CF;
+
+}
+
+ion-side-menu li.item {
+  border-color: #4F5865;
+  }
+
+ion-side-menu li.item.item-divider {
+  background-color: #3E4755;
+}
+
+.ion-ionic {
+  color: orange;
+}
+.ion-home {
+  color: blue;
+}
+.ion-ios-bell {
+  color: yellow;
+}
+.ion-chatbox {
+  color: green;
+}
+.ion-calendar {
+  color: white;
+}
+.ion-folder {
+  color: purple;
+}
+.ion-earth {
+  color: maroon;
+}
+.ion-help-buoy {
+  color: orange;
+}
+.ion-gear-b {
+  color: dimgray;
+}
+.ion-log-out {
+  color: red;
+}
+
+.ion-ionic:before {
+  content: "\f3ea";
+}
+
+.mm-site_mm_courses .tabs-icon-left {
+  background-color: #682911;
+}
+.mm-site_mm_courses section h2 span {
+  font-weight: bold;
+}
+
+/* 3.5 styles */
