@@ -32,7 +32,7 @@ to http://www.gnu.org/copyleft/gpl.html or write to
   Boston, MA 02111-1307 USA
 
 
-### Requirements
+## Requirements
 Moodle 3.0 of greater
 
 
