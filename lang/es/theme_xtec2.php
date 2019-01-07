@@ -110,7 +110,7 @@ $string['importcssdesc'] = 'Introduce una URL absoluta hacia el archivo CSS. Se 
 $string['customcss'] = 'CSS personalizado';
 $string['customcssdesc'] = 'Todas las reglas CSS que añada a esta área de texto se reflejarán en todas las páginas, lo que facilita la personalización de este tema.';
 
-$string['pluginname'] = 'XTEC2';
+$string['pluginname'] = 'Institut Antoni Torroja';
 
 $string['region-side-post'] = 'Derecha';
 $string['region-side-pre'] = 'Izquierda';

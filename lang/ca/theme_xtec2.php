@@ -110,7 +110,7 @@ $string['importcssdesc'] = 'Introduïu un URL absolut d\'un fitxer de fulls d\'e
 $string['customcss'] = 'Estils personalitzats';
 $string['customcssdesc'] = 'Les regles definides aquí seran les darreres que s\'aplicaran i, per tant, els seus valors haurien de prevaldre per sobre dels que puguin estar definits prèviament. Si no és així, reviseu la sintaxi o proveu a afegir <code>!important</code> a la regla.';
 
-$string['pluginname'] = 'XTEC2';
+$string['pluginname'] = 'Institut Antoni Torroja';
 
 $string['region-side-post'] = 'Dreta';
 $string['region-side-pre'] = 'Esquerra';
