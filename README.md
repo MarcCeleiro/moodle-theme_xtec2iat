@@ -12,6 +12,9 @@ It's developed by the Ministry of Education of the Government of Catalonia [2].
 The full code of agora can be found on:
 https://github.com/projectestac/agora
 
+Original XTEC2 theme can be found on:
+https://github.com/projectestac/moodle-theme_xtec2
+
 -----------------------------------------------------------------------------
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public
