@@ -1,10 +1,9 @@
-##
-# XTEC2 theme for Moodle 2
-#
-# @copyright 2008 onwards Departament d'Ensenyament de la Generalitat de Catalunya
-# @source https://github.com/projectestac/agora/
-# @license http://www.gnu.org/licenses/gpl-2.0.txt
-##
+
+## XTEC2 - Institut Antoni Torroja theme for Moodle 3
+
+- Copyright: 2008 onwards Departament d'Educació de la Generalitat de Catalunya
+- Source: https://github.com/projectestac/agora/
+- License: https://www.gnu.org/licenses/gpl-2.0.txt
 
 This theme is based on Clean theme and has been developed for Àgora:
 Àgora [1] is a multi-instance system with services like Moodle, Wordpress and Zikula.
@@ -32,43 +31,47 @@ to http://www.gnu.org/copyleft/gpl.html or write to
   59 Temple Place - Suite 330
   Boston, MA 02111-1307 USA
 
------------------------------------------------------------------------------
-REQUIREMENTS
+
+### Requirements
 Moodle 3.0 of greater
 
------------------------------------------------------------------------------
-INSTALL
+
+## Install
 Download the theme and unzip it on theme/xtec2 directory
 
------------------------------------------------------------------------------
-CREDITS
+
+## Credits
 
 Developers:
-   Sara Arjona      (sarjona@xtec.cat)
-   Pau Ferrer       (crazyserver@gmail.com)
-   Toni Ginard      (aginard@xtec.cat)
-   Francesc Busquets
+   - Sara Arjona      (sarjona@xtec.cat)
+   - Pau Ferrer       (crazyserver@gmail.com)
+   - Toni Ginard      (aginard@xtec.cat)
+   - Francesc Busquets
 
 With the support of:
-   Francesc Busquets
-   Eduard Cercós
-   Mònica Grau
-   Pablo Mariña
-   Jordi Vivancos
+   - Francesc Busquets
+   - Eduard Cercós
+   - Mònica Grau
+   - Pablo Mariña
+   - Jordi Vivancos
+
+Institut Antoni Torroja version:
+   - Marc Celeiro     (marc@marcceleiro.com)
 
 This theme is developed for:
-   - Moodle: Learning Management System (http://moodle.org/)
+   - Moodle: Learning Management System (https://moodle.org/)
 
 This theme includes external resources like:
    - Abecedario: True Type Font by George Williams (revised version)
-   - FontAwesome 4.5.0  (http://fortawesome.github.io/Font-Awesome/)
+   - FontAwesome 4.5.0  (https://fontawesome.com/)
    - Some code to show Fontawesome icons is based on Essential Moodle theme (https://gjb2048.github.io/moodle-theme_essential/)
 
 Special Thanks:
    Catalan schools involved in the project
-   UPCnet           (http://www.upcnet.es)
+   - UPCnet           (http://www.upcnet.es)
 
 
 -----------------------------------------------------------------------------
-[1] http://agora.xtec.cat
+[1] https://agora.xtec.cat
+
 [2] http://ensenyament.gencat.cat/
