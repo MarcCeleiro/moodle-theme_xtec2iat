@@ -469,7 +469,7 @@ h3{
     padding: 0;
 }
 #page-footer-top{
-	background-color: [[setting:color2]]; /* Color*/
+	background-color: [[setting:color3]]; /* Color*/
 	color: [[setting:color3]];
     padding: 1em;
     text-align: center;
@@ -489,8 +489,8 @@ h3{
 }
 
 #page-footer-top .social-icons  i.fa-globe{
-	background-color: [[setting:color3]];
-	color: [[setting:color2]];
+	background-color: [[setting:color2]];
+	color: [[setting:color3]];
 }
 
 #page-footer-top .social-icons  i.fa-phone{
@@ -577,7 +577,7 @@ h3{
     color: white;
     vertical-align: middle;
     border-radius: 60px;
-	background-color: #999;
+	background-color: [[setting:color2]];
 	text-decoration: none;
 	font-family: arial, helvetica, clean, sans-serif;
 }
@@ -587,7 +587,7 @@ h3{
 }
 
 #page-footer-top li.current-lang {
-	background-color: #fff;
+	background-color: #ccc;
 	color: [[setting:color2]];
 	font-weight: bolder;
 }
@@ -600,7 +600,7 @@ h3{
 }
 
 #page-footer-top li.current-lang:hover {
-	background-color: #fff;
+	background-color: #ccc;
 	cursor: default;
 }
 

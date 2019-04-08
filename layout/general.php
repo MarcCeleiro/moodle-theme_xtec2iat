@@ -191,6 +191,12 @@ echo $OUTPUT->doctype() ?>
     </div>
     <div class="footerlogos clearfix container-fluid">
         <a href="http://moodle.org" target="_blank" class="moodle_footer"><img src="<?php echo $OUTPUT->image_url('logo_moodle', 'theme'); ?>" alt="Moodle" title="Moodle" /></a>
+        <br/><br/>
+        <i class="fa fa-github" aria-hidden="true"></i> <a href="https://github.com/insatorroja/moodle-theme_xtec2iat" target="_blank">Codi font del tema del Campus a GitHub</a>
+        <br/>
+        <strong>© 2019 Institut Antoni Torroja.</strong> Disseny: Departament d'Educació i <a href="https://marcceleiro.com" target="_blank">Marc Celeiro</a>
+        <br/>
+        <br/>
     </div>
     <a href="#top" class="hidden-phone back-to-top"><i class="fa fa-angle-up"></i></a>
 </footer>
