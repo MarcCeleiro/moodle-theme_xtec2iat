@@ -30,7 +30,7 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2015022500;
+$plugin->version   = 2019060100;
 $plugin->requires  = 2013111807;
 $plugin->component = 'theme_xtec2';
 $plugin->dependencies = array(
