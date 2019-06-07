@@ -26,19 +26,16 @@ echo $OUTPUT->doctype() ?>
 <header role="banner" class="navbar navbar-fixed-top moodle-has-zindex">
     <nav role="navigation" class="navbar-inner">
         <div class="container-fluid">
-            <a href="http://www20.gencat.cat/portal/site/ensenyament" class="brand ensenyament visible-desktop"><img src="<?php echo $OUTPUT->image_url('departament', 'theme'); ?>" alt="Departament d'Ensenyament" title="" /></a>
-            <a href="http://www.xtec.cat" class="brand xtec visible-desktop"><img src="<?php echo $OUTPUT->image_url('xtec', 'theme'); ?>" alt="Xarxa Telemàtica Educativa de Catalunya" title="" /></a>
-            <a class="brand mainbrand" href="<?php echo $CFG->wwwroot;?>"><?php echo $SITE->fullname; ?></a>
+			<a href="http://ensenyament.gencat.cat/ca/inici" class="brand ensenyament"><img src="<?php echo $OUTPUT->image_url('departament', 'theme'); ?>" alt="Departament d'Educació"/></a>
+			<a href="https://campus.insatorroja.cat" class="brand xtec hidden-phone"><img src="https://insatorroja.cat/logo.png" alt="Moodle de l'Institut Antoni Torroja"/></a>
             <div class="navbar">
-                <a class="btn btn-navbar visible-phone custom_menu_toggle" data-toggle="collapse" data-target="#user-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </a>
-                <ul class="nav-collapse nav pull-right" id="user-collapse">
-                    <li><?php echo $OUTPUT->page_heading_menu(); ?></li>
-                    <li class="navbar-text"><?php echo $OUTPUT->user_menu(); ?></li>
-                </ul>
+			   <?php echo $OUTPUT->user_menu(); ?>
+               <div class="nav-collapse collapse">
+                  <?php echo $OUTPUT->custom_menu(); ?>
+                  <ul class="nav pull-right">
+                     <li><?php echo $OUTPUT->page_heading_menu(); ?></li>
+                  </ul>
+               </div>
             </div>
         </div>
     </nav>
@@ -68,10 +65,13 @@ echo $OUTPUT->doctype() ?>
         ?>
     </div>
     <div class="footerlogos clearfix container-fluid">
-        <a href="http://agora.xtec.cat" target="_blank" class="agora_footer"><img src="<?php echo $OUTPUT->image_url('logo_main', 'theme'); ?>" alt="Àgora" title="" /></a>
         <a href="http://moodle.org" target="_blank" class="moodle_footer"><img src="<?php echo $OUTPUT->image_url('logo_moodle', 'theme'); ?>" alt="Moodle" title="Moodle" /></a>
-        <a href="http://www20.gencat.cat/portal/site/ensenyament" class="brand ensenyament visible-phone"><img src="<?php echo $OUTPUT->image_url('departament', 'theme'); ?>" alt="Departament d'Ensenyament" title="" /></a>
-        <a href="http://www.xtec.cat" class="brand xtec visible-phone"><img src="<?php echo $OUTPUT->image_url('xtec', 'theme'); ?>" alt="Xarxa Telemàtica Educativa de Catalunya" title="" /></a>
+        <br/><br/>
+        <i class="fa fa-github" aria-hidden="true"></i> <a href="https://github.com/insatorroja/moodle-theme_xtec2iat" target="_blank">Codi font del tema del Campus a GitHub</a>
+        <br/>
+        <strong>© 2019 Institut Antoni Torroja.</strong> Disseny: Departament d'Educació i <a href="https://marcceleiro.com" target="_blank">Marc Celeiro</a>
+        <br/>
+        <br/>
     </div>
 </footer>
 

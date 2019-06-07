@@ -121,7 +121,7 @@ echo $OUTPUT->doctype() ?>
 <header role="banner" class="navbar navbar-fixed-top moodle-has-zindex">
     <nav role="navigation" class="navbar-inner">
         <div class="container-fluid">
-			<a href="http://ensenyament.gencat.cat/ca/inici" class="brand ensenyament"><img src="<?php echo $OUTPUT->image_url('departament', 'theme'); ?>" alt="Departament d'Ensenyament"/></a>
+			<a href="http://ensenyament.gencat.cat/ca/inici" class="brand ensenyament"><img src="<?php echo $OUTPUT->image_url('departament', 'theme'); ?>" alt="Departament d'Educació"/></a>
 			<a href="https://campus.insatorroja.cat" class="brand xtec hidden-phone"><img src="https://insatorroja.cat/logo.png" alt="Moodle de l'Institut Antoni Torroja"/></a>
             <div class="navbar">
 			   <?php echo $OUTPUT->user_menu(); ?>
@@ -141,8 +141,6 @@ echo $OUTPUT->doctype() ?>
         <?php echo $OUTPUT->page_heading(); ?>
     </div>
 </div>
-
-
 
 <div id="page" class="container-fluid clearfix">
 	<header id="page-header" class="clearfix">
